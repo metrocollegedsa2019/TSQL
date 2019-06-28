@@ -158,7 +158,7 @@ select * from price
 select wholesale, count(wholesale) as ccc from price group by wholesale
 
 select item, max(wholesale) from price group by item
-
+--comment
 ------------------------------------
 --Conversion
 SELECT convert( varchar(30), 56)
